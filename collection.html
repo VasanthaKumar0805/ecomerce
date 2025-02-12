@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Liter&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome iccon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>NOSTRA</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">collections</a></p>
+            <p class="navbar-link"><a href="contact.html">contacts</a></p>
+        </div>
+
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+    <!-- side-navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">contacts</a></p>
+        </div>
+    </div>
+
+    <!-- product -->
+     <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+
+            <div class="product-box">
+                <img src="./images/white-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>White Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/black-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Black Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/green-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Green Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/gray-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Gray Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/orange-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Orange Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/lightblue-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Lightblue Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/navy-blue shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Navyblue Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/red-shirt.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;">
+                <p>Red Shirt</p>
+            </div>
+
+
+        </div>
+
+     </div>
+
+    <!-- footer -->
+     <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="heading-text">NOSTRA</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dignissimos?</p>
+                <div class="icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+
+        <p>@ 2025 Nostra.</p>
+     </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
